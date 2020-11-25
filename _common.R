@@ -1,3 +1,4 @@
+#install.packages("knitr")
 knitr::opts_chunk$set(
   comment = "#>",
   collapse = TRUE,
@@ -15,9 +16,10 @@ knitr::opts_chunk$set(
 )
 
 options(crayon.enabled = FALSE)
-
+#install.packages("tidyverse")
 suppressPackageStartupMessages(library(tidyverse))
 theme_set(theme_light())
-
+#install.packages("scales")
+install.packages("methods")
 library(scales)
 library(methods)
